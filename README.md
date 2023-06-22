@@ -1,7 +1,7 @@
-# multithreading
+# Multi-threaded Printing
 
-This program creates two Thread objects, t1 and t2, and starts them using the start() method. These threads then run in parallel, executing the print_numbers() and print_letters() functions respectively.
+This Python script demonstrates how to use threads to print numbers and letters concurrently.
 
-The join() method is then used to wait for both threads to complete before the program exits. This ensures that both threads have finished executing before the program terminates.
+#Usage
 
-Therefore, the program creates and uses only two threads, one for each of the print_numbers() and print_letters() functions.
+The script defines two functions, print_numbers and print_letters, which print numbers 1-10 and letters 'a'-'j' respectively. The script then creates two threads, one for each function, and starts them. The join method is called on each thread to ensure that they complete before the script exits.
